@@ -1,6 +1,6 @@
 <?php
-
-require_once "user.php";
+//git
+require_once "user.php"; 
 require_once "account.php";
 session_start();
 if (!isset($_SESSION['users'])) {
